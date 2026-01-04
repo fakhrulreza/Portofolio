@@ -1,6 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { GraduationCap, Code } from 'lucide-react';
+import profileImg from '../assets/profile.jpg';
+
 
 const About = () => {
     return (
@@ -36,7 +38,7 @@ const About = () => {
                             <div className="absolute inset-4 border-2 border-secondary/30 rounded-full animate-spin-reverse-slow" style={{ animationDuration: '15s' }}></div>
                             <div className="absolute inset-0 rounded-full overflow-hidden border-4 border-white/10 shadow-2xl">
                                 <img
-                                    src="/src/assets/profile.jpg"
+                                    src={profileImg}
                                     alt="Profile"
                                     className="w-full h-full object-cover"
                                 />
