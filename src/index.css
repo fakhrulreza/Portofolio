@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+@theme {
+  --color-background: #0a0a0a;
+  --color-surface: #121212;
+  --color-primary: #D4AF37;
+  --color-secondary: #C5A028;
+  
+  --font-sans: 'Outfit', sans-serif;
+  --font-display: 'Outfit', sans-serif;
+}
+
+/* Custom Utilities for Black & Gold Theme matches */
+.bg-theme-black {
+    background-color: var(--color-background);
+}
+.bg-theme-surface {
+    background-color: var(--color-surface);
+}
+.text-gold {
+    color: var(--color-primary);
+}
+.border-gold {
+    border-color: var(--color-primary);
+}
