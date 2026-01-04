@@ -15,7 +15,7 @@ const Projects = () => {
             title: "Portfolio Website",
             description: "A modern, responsive portfolio website built with React, Vite, and Tailwind CSS. Features smooth animations and a glassmorphism design.",
             tech: ["React", "Tailwind", "Framer Motion"],
-            github: "https://github.com/yourusername/portfolio",
+            github: "https://github.com/fakhrulreza/Portofolio",
             demo: "#",
             image: portfolioImg
         },
